@@ -1,0 +1,73 @@
+Language: Cpp
+BasedOnStyle: LLVM
+AccessModifierOffset: 0
+AlignEscapedNewlinesLeft: true
+AlignTrailingComments: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortEnumsOnASingleLine: true
+AlwaysBreakAfterReturnType: None
+BinPackParameters: false
+BreakBeforeBinaryOperators: false
+BreakBeforeBraces: Custom
+BreakBeforeTernaryOperators: false
+BreakConstructorInitializersBeforeComma: false
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: false
+  AfterExternBlock: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterObjCDeclaration: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeWhile: false
+  SplitEmptyFunction: true
+  SplitEmptyNamespace: true
+  SplitEmptyRecord: true
+ColumnLimit: 0
+CompactNamespaces: false
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+ConstructorInitializerIndentWidth: 0
+ContinuationIndentWidth: 0
+Cpp11BracedListStyle: true
+DerivePointerBinding: false
+FixNamespaceComments: true
+IncludeBlocks: Merge
+IndentCaseLabels: true
+IndentFunctionDeclarationAfterType: false
+IndentWidth: 4
+MaxEmptyLinesToKeep: 10
+NamespaceIndentation: All
+PenaltyBreakBeforeFirstCallParameter: 100
+PenaltyBreakComment: 100
+PenaltyBreakFirstLessLess: 0
+PenaltyBreakString: 100
+PenaltyExcessCharacter: 1
+PenaltyReturnTypeOnItsOwnLine: 20
+PointerBindsToType: true
+SpaceAfterCStyleCast: true
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: Always
+SpaceBeforeCpp11BracedList: true
+SpaceBeforeSquareBrackets: true
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceInEmptyParentheses: true
+SpaceInEmptyBlock: true
+SpacesBeforeTrailingComments: 1
+SpacesInConditionalStatement: true
+SpacesInContainerLiterals: true
+SpacesInCStyleCastParentheses: true
+SpacesInParentheses: true
+SpacesInSquareBrackets: true
+Standard: Cpp11
+TabWidth: 4
+UseCRLF: true
+UseTab: Never
